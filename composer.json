@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Blazer\\WorkWechatRobot": "src/"
+      "Blazer\\WorkWechatRobot\\": "src/"
     }
   },
   "extra": {
