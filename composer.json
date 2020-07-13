@@ -18,7 +18,14 @@
   },
   "autoload": {
     "psr-4": {
-      "WorkWechatRobot\\": "src/"
+      "Blazer\\WorkWechatRobot": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Blazer\\WorkWechatRobot\\ServiceProvider"
+      ]
     }
   }
 }

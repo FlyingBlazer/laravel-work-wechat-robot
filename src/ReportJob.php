@@ -1,6 +1,6 @@
 <?php
 
-namespace WorkWechatRobot;
+namespace Blazer\WorkWechatRobot;
 
 use GuzzleHttp\Client;
 use Illuminate\Bus\Queueable;

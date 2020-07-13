@@ -1,6 +1,6 @@
 <?php
 
-namespace WorkWechatRobot;
+namespace Blazer\WorkWechatRobot;
 
 use Illuminate\Support\Facades\Queue;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace WorkWechatRobot;
+namespace Blazer\WorkWechatRobot;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
