@@ -1,0 +1,24 @@
+{
+  "name": "blazer/laravel-work-wechat-robot",
+  "description": "企业微信机器人Webhook",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "YuZhan",
+      "email": "me@yuzhan.info"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "illuminate/bus": "^5.1 || ^6.0 || ^7.0",
+    "illuminate/container": "^5.1 || ^6.0 || ^7.0",
+    "illuminate/contracts": "^5.1 || ^6.0 || ^7.0",
+    "illuminate/queue": "^5.1 || ^6.0 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WorkWechatRobot\\": "src/"
+    }
+  }
+}
