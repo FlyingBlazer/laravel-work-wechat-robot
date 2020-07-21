@@ -2,6 +2,7 @@
 
 namespace Blazer\WorkWechatRobot;
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Queue;
 
 class WorkWechatRobot
@@ -19,6 +20,10 @@ class WorkWechatRobot
 
     private function sendRaw($body)
     {
+        if (is_null($this->url)) {
+            return;
+        }
+
         $job = new ReportJob($this->url, $body);
 
         if ($this->async) {
